@@ -49,7 +49,7 @@ jobs:
       
 
     # Runs code analysis with C/C++test.
-    - name: Run C/C++test
+    - name: Run C/C++test Gen Tests
       uses: parasoft/run-cpptest-action@2.0.2
       with:
     # C/C++test workspace will be created in '../workspace'.
@@ -57,6 +57,15 @@ jobs:
         
         additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
         commandLinePattern: '${cpptestcli} -config "builtin://Generate Unit Tests" -data "C:\Users\syoung\parasoft\workspace2026.1" -bdf "C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\timer.bdf" -showdetails'
+
+    - name: Run C/C++test Execute Tests
+      uses: parasoft/run-cpptest-action@2.0.2
+      with:
+    # C/C++test workspace will be created in '../workspace'.
+    # C/C++test will create a new project based on the provided .bdf file.
+        
+        additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
+        commandLinePattern: '${cpptestcli} -config "builtin://Execute Unit Tests" -data "C:\Users\syoung\parasoft\workspace2026.1" -bdf "C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\timer.bdf" -showdetails'
         
 
     # - name: Configure CMake in build directory
