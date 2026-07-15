@@ -65,7 +65,7 @@ jobs:
     # C/C++test will create a new project based on the provided .bdf file.
         
         additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
-        commandLinePattern: '${cpptestcli} -config "builtin://Run Unit Tests" -resource "C:\Users\syoung\parasoft\workspace2026.1\Timer\tests" -bdf "C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\timer.bdf" -showdetails'
+        commandLinePattern: '${cpptestcli} -config "builtin://Run Unit Tests" -resource "\Timer\tests" -bdf "C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\timer.bdf" -showdetails'
         
 
     # - name: Configure CMake in build directory
