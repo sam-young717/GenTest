@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" toolVer="2026.1.0" execEnv="win32_x86_64" hasViols="false" project="Default Project" buildId="Default Project-2026-08-06" climode="true" toolDispName="C/C++test" toolId="c++test" machine="syoung-pc" tag="Run Unit Tests" time="2026-08-06T14:17:41-04:00" id="1786760168125" lang="en_US" user="syoung" toolName="DTP Engine for C/C++">
+	<TestParameters cmdLn="cpptestcli -settings C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_141735\engine.properties -input C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_141735\unittests.desktop_ut -input C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_141735\coverage.desktop_cvg -settings C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_141735\modules.properties -config C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_141735\Run Unit Tests.properties"/>
+	<TestConfig machine="syoung-pc" pseudoUrl="C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_141735\Run Unit Tests.properties" name="Run Unit Tests" user="syoung"/>
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1"/>
+	</VersionInfos>
+	<Repositories/>
+	<Locations>
+		<Loc locRef="1" projId="Timer" project="Timer" resProjPath="Timer/clock.c" uri="file:/C:/Users/syoung/Documents/Solutions/Windows/2026.1/Professional/Standalone/cpptest/examples/Timer/clock.c" projPath="/Timer" hash="-759020719"/>
+		<Loc locRef="2" projId="Timer" project="Timer" resProjPath="Timer/driver.c" uri="file:/C:/Users/syoung/Documents/Solutions/Windows/2026.1/Professional/Standalone/cpptest/examples/Timer/driver.c" projPath="/Timer" hash="65740504"/>
+		<Loc locRef="3" projId="Timer" project="Timer" resProjPath="Timer/stdinout.c" uri="file:/C:/Users/syoung/Documents/Solutions/Windows/2026.1/Professional/Standalone/cpptest/examples/Timer/stdinout.c" projPath="/Timer" hash="844867668"/>
+		<Loc locRef="4" projId="Timer" project="Timer" resProjPath="Timer/timer.c" uri="file:/C:/Users/syoung/Documents/Solutions/Windows/2026.1/Professional/Standalone/cpptest/examples/Timer/timer.c" projPath="/Timer" hash="-275311578"/>
+	</Locations>
+	<Tests>
+		<Test testRef="1" id="CPP://-1709672097288278956"/>
+		<Test testRef="2" id="CPP://-1709672097288278987"/>
+		<Test testRef="3" id="CPP://-1709672097288279018"/>
+		<Test testRef="4" id="CPP://-1709672097288279049"/>
+		<Test testRef="5" id="CPP://-1860250236092806385"/>
+		<Test testRef="6" id="CPP://-263298273024330440"/>
+		<Test testRef="7" id="CPP://-3404286878211704126"/>
+		<Test testRef="8" id="CPP://-3404286878211704188"/>
+		<Test testRef="9" id="CPP://-3404286878211704219"/>
+		<Test testRef="10" id="CPP://-3404286878211704250"/>
+		<Test testRef="11" id="CPP://-3404286878211704281"/>
+		<Test testRef="12" id="CPP://-4503747787290474637"/>
+		<Test testRef="13" id="CPP://-4503747787290474668"/>
+		<Test testRef="14" id="CPP://-4503747787290474699"/>
+		<Test testRef="15" id="CPP://-4503747787290474730"/>
+		<Test testRef="16" id="CPP://-4503747787290474761"/>
+		<Test testRef="17" id="CPP://-4503747787290474792"/>
+		<Test testRef="18" id="CPP://-4503747787290474823"/>
+		<Test testRef="19" id="CPP://-4503747787290474854"/>
+		<Test testRef="20" id="CPP://-4503747787290474885"/>
+		<Test testRef="21" id="CPP://-6508964976762864161"/>
+		<Test testRef="22" id="CPP://-6739150097439214012"/>
+		<Test testRef="23" id="CPP://-8867972971911185613"/>
+		<Test testRef="24" id="CPP://-960229715458249433"/>
+		<Test testRef="25" id="CPP://-960229715458249464"/>
+		<Test testRef="26" id="CPP://-960229715458249495"/>
+		<Test testRef="27" id="CPP://-960229715458249526"/>
+		<Test testRef="28" id="CPP://-960229715458249557"/>
+		<Test testRef="29" id="CPP://-960229715458249588"/>
+		<Test testRef="30" id="CPP://-960229715458249619"/>
+		<Test testRef="31" id="CPP://-960229715458249650"/>
+		<Test testRef="32" id="CPP://-960229715458249681"/>
+		<Test testRef="33" id="CPP://2709253052822786312"/>
+		<Test testRef="34" id="CPP://386651384257022888"/>
+		<Test testRef="35" id="CPP://386651384257022919"/>
+		<Test testRef="36" id="CPP://386651384257022950"/>
+		<Test testRef="37" id="CPP://386651384257022981"/>
+		<Test testRef="38" id="CPP://386651384257023012"/>
+		<Test testRef="39" id="CPP://5868800336681509579"/>
+		<Test testRef="40" id="CPP://5868800336681509610"/>
+		<Test testRef="41" id="CPP://5868800336681509641"/>
+		<Test testRef="42" id="CPP://5868800336681509672"/>
+		<Test testRef="43" id="CPP://5868800336681509703"/>
+		<Test testRef="44" id="CPP://5868800336681509734"/>
+		<Test testRef="45" id="CPP://6953299385643373366"/>
+		<Test testRef="46" id="CPP://7126366925421907309"/>
+		<Test testRef="47" id="CPP://7794684409539443467"/>
+		<Test testRef="48" id="CPP://7957771140880235681"/>
+		<Test testRef="49" id="CPP://8228709268626390079"/>
+		<Test testRef="50" id="CPP://8228709268626390110"/>
+		<Test testRef="51" id="CPP://8228709268626390141"/>
+		<Test testRef="52" id="CPP://8228709268626390172"/>
+		<Test testRef="53" id="CPP://8228709268626390203"/>
+		<Test testRef="54" id="CPP://9177285340579812049"/>
+		<Test testRef="55" id="CPP://9177285340579812080"/>
+		<Test testRef="56" id="CPP://9177285340579812111"/>
+		<Test testRef="57" id="CPP://9177285340579812142"/>
+		<Test testRef="58" id="CPP://9177285340579812173"/>
+		<Test testRef="59" id="CPP://9177285340579812204"/>
+		<Test testRef="60" id="CPP://9177285340579812235"/>
+		<Test testRef="61" id="CPP://9177285340579812266"/>
+		<Test testRef="62" id="CPP://9177285340579812297"/>
+	</Tests>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="78130fe0_display_time" name="display_time" hash="-1532319634"/>
+				<Item itemRef="2" id="78130fe0_set_time" name="set_time" hash="-1496106121"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="16 18 19 14 15" hashes="-237631284 369521280 -1350296736 -2004706563 -1564703446"/>
+				<StatCvg itemRef="2" elems="27" hashes="123"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="34 35 37 36 38" elemRefs="27"/>
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="33" elemRefs="14 15 16 18 19"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="26626660_main" name="main" hash="1798627933"/>
+				<Item itemRef="2" id="26626660_print_menu_get_action" name="print_menu_get_action" hash="-237933567"/>
+				<Item itemRef="3" id="26626660_main_loop" name="main_loop" hash="1478394810"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="71 72 73 74" hashes="932563601 -660983347 699424085 -1256396037"/>
+				<StatCvg itemRef="2" elems="15 16 17 18 19 20 21 22 23 24 25 26 28 29" hashes="923795973 378303775 461595667 -1874811899 1674314502 -94421320 834318816 1075694496 -1874811899 -1018687565 -1874811899 -1234703117 -859906268 -495843510"/>
+				<StatCvg itemRef="3" elems="64 34 35 37 40 41 42 44 46 48 49 50 52 53 55 56 59 60 63" hashes="207609628 1823244012 1236489322 224730964 -1326866858 170011725 420014112 1318983287 207609628 482597223 -429052551 207609628 1582224491 207609628 -1947009296 207609628 -1303736882 -1196601077 94038296"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="45" elemRefs="34 35 37 40 63 64"/>
+					<CtxCvg testRefs="5" elemRefs="34 35 37 40 41 44 46 59 60 63 64"/>
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="5" elemRefs="71 72 73 74"/>
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="45 5 23" elemRefs="15 16 17 18 19 20 21 22 23 24 25 26 28 29"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="e873cdbe_print_string" name="print_string" hash="116420043"/>
+				<Item itemRef="2" id="e873cdbe_get_input_digit" name="get_input_digit" hash="-875626393"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="54" hashes="-206127679"/>
+				<StatCvg itemRef="2" elems="18 19 35 20 38 39 40 41 45 46" hashes="-695983806 1679375043 -1448247265 -2004706563 -1663270807 410470818 -1384567970 1605700164 1793475976 1849933771"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="9 8 6 7 11 10 45 5 23 21" elemRefs="18 19 20 35 38 39 40 41 45 46"/>
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="51 9 8 53 50 7 3 33 47 5 56 6 57 59 11 10 45 2 49 4 23 52 1" elemRefs="54"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="4">
+			<Stats>
+				<Item itemRef="1" id="f6234957_list_timers" name="list_timers" hash="-1014441068"/>
+				<Item itemRef="2" id="f6234957_add_timer_record" name="add_timer_record" hash="-1022087542"/>
+				<Item itemRef="3" id="f6234957_uninit_timer" name="uninit_timer" hash="-1167306230"/>
+				<Item itemRef="4" id="f6234957_format_timer_record" name="format_timer_record" hash="-625208592"/>
+				<Item itemRef="5" id="f6234957_query_user" name="query_user" hash="1064897111"/>
+				<Item itemRef="6" id="f6234957_init_timer" name="init_timer" hash="-923634654"/>
+				<Item itemRef="7" id="f6234957_delete_timer_record" name="delete_timer_record" hash="-403251592"/>
+				<Item itemRef="8" id="f6234957_add_timer" name="add_timer" hash="35349193"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="144 145 146 147 148 150 151 153" hashes="-2004706563 1679375043 1628413856 1760988551 1531685295 -1846563555 924656480 -332149005"/>
+				<StatCvg itemRef="2" elems="97 98 100" hashes="-1600799721 -1933903777 -1597326853"/>
+				<StatCvg itemRef="3" elems="28 30 31" hashes="1679375043 1743982722 26121042"/>
+				<StatCvg itemRef="4" elems="128 129 131 133 134 136 137" hashes="-1285013714 -1725726827 -1356760849 -23883783 -1644342585 130267201 201551585"/>
+				<StatCvg itemRef="5" elems="65 68 69 71 40 41 42 43 45 46 48 49 52 53 54 55 57 60 61 62 63" hashes="-1409060683 -397800787 1021803899 601074313 621530644 -456882160 1079331828 1350390768 1705568950 -1526808077 -527707354 1340052799 -337297020 1051372518 -1456902895 -1585297472 -731975428 17156239 1051372518 -129737380 -1585297472"/>
+				<StatCvg itemRef="6" elems="22" hashes="-1074791283"/>
+				<StatCvg itemRef="7" elems="114 116 117 119 122 123 110 111" hashes="-1694282400 1747357394 207609628 -1724712002 -1575012362 -813884052 -1356760849 1679375043"/>
+				<StatCvg itemRef="8" elems="80 81 83 85 76 78" hashes="-1502932978 1779373602 -992348185 -1256396037 -1646187554 -174357818"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="9 47 56 57 59" elemRefs="97 100"/>
+					<CtxCvg testRefs="8 7 62 61 58 54 5 55 11 10 45 60" elemRefs="97 98"/>
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="53 15 50 16 20 17 18 14 19 13 12 48" elemRefs="128 129 131 133"/>
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="53 50" elemRefs="144 145 146 147 148 150"/>
+					<CtxCvg testRefs="51 49 52" elemRefs="144 145 146 147 148 153"/>
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="45" elemRefs="76 78 80 81"/>
+					<CtxCvg testRefs="9 8 7 11 10 5" elemRefs="76 78 80 81 85"/>
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="9 8 6 7 11 10 45 5" elemRefs="40 41 42 43 45 46 48 49 52 53 54 55 57 60 61 62 63 65 68 69 71"/>
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="22 5" elemRefs="22"/>
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="28 26 43 24 25 27" elemRefs="110 111 114 122 123"/>
+					<CtxCvg testRefs="29 30 44 31 42 41 5 46 40 39 32" elemRefs="110 111 114 116 117 122 123"/>
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="44 40 39 42 43 41 5" elemRefs="28 30 31"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+	</CoverageData>
+</Coverage>
