@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?><ResultsSession buildId="Default Project-2026-08-06" date="08/06/26 14:21:59" endTime="1969-12-31T19:00:00-05:00" machine="syoung-pc" project="Default Project" tag="Run Unit Tests" time="2026-08-06T14:21:59-04:00" toolName="C++test" toolVer="2026.1.0.20260525B3107" user="syoung">
-   <TestParameters cmdLn="cpptestcli: -config builtin://Run Unit Tests -bdf project.bdf -report C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\reports -property report.additional.report.dir=reports "/>
+<?xml version='1.0' encoding='UTF-8' standalone='no'?><ResultsSession buildId="Default Project-2026-08-06" date="08/06/26 14:31:42" endTime="1969-12-31T19:00:00-05:00" machine="syoung-pc" project="Default Project" tag="Run Unit Tests" time="2026-08-06T14:31:42-04:00" toolName="C++test" toolVer="2026.1.0.20260525B3107" user="syoung">
+   <TestParameters cmdLn="cpptestcli: -config builtin://Run Unit Tests -bdf project.bdf -report C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\reports\Unit_Tests.xml -property report.additional.report.dir=reports "/>
    <TestConfig machine="syoung-pc" name="Run Unit Tests" pseudoUrl="c++test.builtin://Run Unit Tests" user="syoung"/>
    <Authors>
       <Author id="dev1" name="syoung"/>

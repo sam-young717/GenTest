@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?><ResultsSession buildId="Default Project-2026-08-06" date="08/06/26 14:26:26" endTime="1969-12-31T19:00:00-05:00" machine="syoung-pc" project="Default Project" tag="MISRA C 2025" time="2026-08-06T14:26:26-04:00" toolName="C++test" toolVer="2026.1.0.20260525B3107" user="syoung">
-   <TestParameters cmdLn="cpptestcli: -config builtin://MISRA C 2025 -bdf project.bdf -report C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\reports -property report.additional.report.dir=reports "/>
+<?xml version='1.0' encoding='UTF-8' standalone='no'?><ResultsSession buildId="Default Project-2026-08-06" date="08/06/26 14:30:25" endTime="1969-12-31T19:00:00-05:00" machine="syoung-pc" project="Default Project" tag="MISRA C 2025" time="2026-08-06T14:30:25-04:00" toolName="C++test" toolVer="2026.1.0.20260525B3107" user="syoung">
+   <TestParameters cmdLn="cpptestcli: -config builtin://MISRA C 2025 -bdf project.bdf -report C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer\reports\MISRA.xml -property report.additional.report.dir=reports "/>
    <TestConfig machine="syoung-pc" name="MISRA C 2025" pseudoUrl="c++test.builtin://MISRA C 2025" user="syoung"/>
    <Authors>
       <Author id="dev1" name="syoung"/>
@@ -33,7 +33,7 @@
          <ScopeProjectInfo fltFiles="12" fltLns="2102" project="/Timer" totFiles="12" totLns="2102"/>
       </ProjectInformations>
    </Scope>
-   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:08">
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:09">
       <Projects>
          <Project bdCheckedFiles="1" bdTotalFiles="1" checkedFiles="8" checkedLns="389" name="Timer" qfixErrs="0" suppErrs="0" totErrs="205" totFiles="8" totLns="389"/>
       </Projects>

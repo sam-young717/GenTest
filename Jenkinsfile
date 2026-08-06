@@ -6,7 +6,7 @@ pipeline {
                 recordIssues (
                     tools: [
                         parasoftFindings (
-                            pattern: 'reports/report.xml',
+                            pattern: 'reports/MISRA.xml',
                             localSettingsPath: 'settings.properties'
                         )
                     ]
@@ -17,7 +17,7 @@ pipeline {
 	stage('Publishing Test Execution Results') {
             steps {
                 xunit (
-                    tools: [[$class: 'ParasoftType', pattern: '**/report.xml']]   
+                    tools: [[$class: 'ParasoftType', pattern: 'reports/Unit_Tests.xml']]   
                 )
             }
         }
