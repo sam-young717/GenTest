@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Coverage ver="2" toolVer="2026.1.0" execEnv="win32_x86_64" hasViols="false" project="Default Project" buildId="Default Project-2026-08-06" climode="true" toolDispName="C/C++test" toolId="c++test" machine="syoung-pc" tag="Run Unit Tests" time="2026-08-06T14:31:49-04:00" id="1786761015885" lang="en_US" user="syoung" toolName="DTP Engine for C/C++">
-	<TestParameters cmdLn="cpptestcli -settings C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_143143\engine.properties -input C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_143143\unittests.desktop_ut -input C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_143143\coverage.desktop_cvg -settings C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_143143\modules.properties -config C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_143143\Run Unit Tests.properties"/>
-	<TestConfig machine="syoung-pc" pseudoUrl="C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_143143\Run Unit Tests.properties" name="Run Unit Tests" user="syoung"/>
+<Coverage ver="2" toolVer="2026.1.0" execEnv="win32_x86_64" hasViols="false" project="Default Project" buildId="Default Project-2026-08-06" climode="true" toolDispName="C/C++test" toolId="c++test" machine="syoung-pc" tag="Run Unit Tests" time="2026-08-06T14:42:35-04:00" id="1786761661168" lang="en_US" user="syoung" toolName="DTP Engine for C/C++">
+	<TestParameters cmdLn="cpptestcli -settings C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_144228\engine.properties -input C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_144228\unittests.desktop_ut -input C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_144228\coverage.desktop_cvg -settings C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_144228\modules.properties -config C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_144228\Run Unit Tests.properties"/>
+	<TestConfig machine="syoung-pc" pseudoUrl="C:\Users\syoung\parasoft\workspace2026.1\.cpptest\.dtpengine\session_20260806_144228\Run Unit Tests.properties" name="Run Unit Tests" user="syoung"/>
 	<VersionInfos>
 		<VersionInfo id="LC" ver="1"/>
 	</VersionInfos>
@@ -140,26 +140,26 @@
 		<CvgData locRef="4">
 			<Stats>
 				<Item itemRef="1" id="f6234957_list_timers" name="list_timers" hash="-1014441068"/>
-				<Item itemRef="2" id="f6234957_uninit_timer" name="uninit_timer" hash="-1167306230"/>
+				<Item itemRef="2" id="f6234957_add_timer_record" name="add_timer_record" hash="-1022087542"/>
 				<Item itemRef="3" id="f6234957_format_timer_record" name="format_timer_record" hash="-625208592"/>
-				<Item itemRef="4" id="f6234957_add_timer_record" name="add_timer_record" hash="-1022087542"/>
+				<Item itemRef="4" id="f6234957_uninit_timer" name="uninit_timer" hash="-1167306230"/>
 				<Item itemRef="5" id="f6234957_query_user" name="query_user" hash="1064897111"/>
 				<Item itemRef="6" id="f6234957_init_timer" name="init_timer" hash="-923634654"/>
-				<Item itemRef="7" id="f6234957_add_timer" name="add_timer" hash="35349193"/>
-				<Item itemRef="8" id="f6234957_delete_timer_record" name="delete_timer_record" hash="-403251592"/>
+				<Item itemRef="7" id="f6234957_delete_timer_record" name="delete_timer_record" hash="-403251592"/>
+				<Item itemRef="8" id="f6234957_add_timer" name="add_timer" hash="35349193"/>
 			</Stats>
 			<Static>
 				<StatCvg itemRef="1" elems="144 145 146 147 148 150 151 153" hashes="-2004706563 1679375043 1628413856 1760988551 1531685295 -1846563555 924656480 -332149005"/>
-				<StatCvg itemRef="2" elems="28 30 31" hashes="1679375043 1743982722 26121042"/>
+				<StatCvg itemRef="2" elems="97 98 100" hashes="-1600799721 -1933903777 -1597326853"/>
 				<StatCvg itemRef="3" elems="128 129 131 133 134 136 137" hashes="-1285013714 -1725726827 -1356760849 -23883783 -1644342585 130267201 201551585"/>
-				<StatCvg itemRef="4" elems="97 98 100" hashes="-1600799721 -1933903777 -1597326853"/>
+				<StatCvg itemRef="4" elems="28 30 31" hashes="1679375043 1743982722 26121042"/>
 				<StatCvg itemRef="5" elems="65 68 69 71 40 41 42 43 45 46 48 49 52 53 54 55 57 60 61 62 63" hashes="-1409060683 -397800787 1021803899 601074313 621530644 -456882160 1079331828 1350390768 1705568950 -1526808077 -527707354 1340052799 -337297020 1051372518 -1456902895 -1585297472 -731975428 17156239 1051372518 -129737380 -1585297472"/>
 				<StatCvg itemRef="6" elems="22" hashes="-1074791283"/>
-				<StatCvg itemRef="7" elems="80 81 83 85 76 78" hashes="-1502932978 1779373602 -992348185 -1256396037 -1646187554 -174357818"/>
-				<StatCvg itemRef="8" elems="114 116 117 119 122 123 110 111" hashes="-1694282400 1747357394 207609628 -1724712002 -1575012362 -813884052 -1356760849 1679375043"/>
+				<StatCvg itemRef="7" elems="114 116 117 119 122 123 110 111" hashes="-1694282400 1747357394 207609628 -1724712002 -1575012362 -813884052 -1356760849 1679375043"/>
+				<StatCvg itemRef="8" elems="80 81 83 85 76 78" hashes="-1502932978 1779373602 -992348185 -1256396037 -1646187554 -174357818"/>
 			</Static>
 			<Dynamic>
-				<DynCvg itemRef="4">
+				<DynCvg itemRef="2">
 					<CtxCvg testRefs="9 47 56 57 59" elemRefs="97 100"/>
 					<CtxCvg testRefs="8 7 62 61 58 54 5 55 11 10 45 60" elemRefs="97 98"/>
 				</DynCvg>
@@ -170,7 +170,7 @@
 					<CtxCvg testRefs="53 50" elemRefs="144 145 146 147 148 150"/>
 					<CtxCvg testRefs="51 49 52" elemRefs="144 145 146 147 148 153"/>
 				</DynCvg>
-				<DynCvg itemRef="7">
+				<DynCvg itemRef="8">
 					<CtxCvg testRefs="45" elemRefs="76 78 80 81"/>
 					<CtxCvg testRefs="9 8 7 11 10 5" elemRefs="76 78 80 81 85"/>
 				</DynCvg>
@@ -180,11 +180,11 @@
 				<DynCvg itemRef="6">
 					<CtxCvg testRefs="22 5" elemRefs="22"/>
 				</DynCvg>
-				<DynCvg itemRef="8">
+				<DynCvg itemRef="7">
 					<CtxCvg testRefs="28 26 43 24 25 27" elemRefs="110 111 114 122 123"/>
 					<CtxCvg testRefs="29 30 44 31 42 41 5 46 40 39 32" elemRefs="110 111 114 116 117 122 123"/>
 				</DynCvg>
-				<DynCvg itemRef="2">
+				<DynCvg itemRef="4">
 					<CtxCvg testRefs="44 40 39 42 43 41 5" elemRefs="28 30 31"/>
 				</DynCvg>
 			</Dynamic>
