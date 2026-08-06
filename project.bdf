@@ -1,6 +1,6 @@
 ------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
 working_dir=C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer
-project_name=Timer
+project_name=TimerIMRIS
 arg=gcc
 arg=-g
 arg=-I.
@@ -10,7 +10,7 @@ arg=-c
 arg=clock.c
 ------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
 working_dir=C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer
-project_name=Timer
+project_name=TimerIMRIS
 arg=gcc
 arg=-g
 arg=-I.
@@ -20,7 +20,7 @@ arg=-c
 arg=driver.c
 ------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
 working_dir=C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer
-project_name=Timer
+project_name=TimerIMRIS
 arg=gcc
 arg=-g
 arg=-I.
@@ -30,7 +30,7 @@ arg=-c
 arg=timer.c
 ------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
 working_dir=C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer
-project_name=Timer
+project_name=TimerIMRIS
 arg=gcc
 arg=-g
 arg=-I.
@@ -40,7 +40,7 @@ arg=-c
 arg=stdinout.c
 ------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
 working_dir=C:\Users\syoung\Documents\Solutions\Windows\2026.1\Professional\Standalone\cpptest\examples\Timer
-project_name=Timer
+project_name=TimerIMRIS
 arg=gcc
 arg=clock.o
 arg=driver.o
