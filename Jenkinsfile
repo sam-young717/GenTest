@@ -14,6 +14,14 @@ pipeline {
             }
         }
 
+	stage('Publishing Test Execution Results') {
+            steps {
+                xunit (
+                    tools: [[$class: 'ParasoftType', pattern: '**/report.xml']]   
+                )
+            }
+        }
+
         stage('Publishing Code Coverage Results') {
             steps {
                 recordParasoftCoverage (
