@@ -25,7 +25,7 @@ pipeline {
         stage('Publishing Code Coverage Results') {
             steps {
                 recordParasoftCoverage (
-                    pattern: '/mnt/c/Users/syoung/Documents/Solutions/Windows/2026.1/Professional/Standalone/cpptest/examples/reports/report.xml',
+                    pattern: '/reports/report.xml',
                     referenceJob: 'CT',
                     sourceCodeEncoding: 'UTF-8',
                     coverageQualityGates: [
