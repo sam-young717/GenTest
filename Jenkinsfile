@@ -29,7 +29,7 @@ pipeline {
  				keepAll: true,
  				reportDir: 'reports',
  				reportFiles: 'report5932398513366191311.html',
- 				reportName: 'Coverage',
+ 				reportName: 'Parsoft Coverage Report HTML',
  				reportTitles: 'Parasoft Coverage Report'])
 			}
 	}
