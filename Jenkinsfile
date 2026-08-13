@@ -22,6 +22,18 @@ pipeline {
             }
         }
 
+	stage('Attaching HTML Report') {
+			steps {
+				publishHTML (target : [allowMissing: false,
+ 				alwaysLinkToLastBuild: true,
+ 				keepAll: true,
+ 				reportDir: 'reports',
+ 				reportFiles: 'report5932398513366191311.html',
+ 				reportName: 'Coverage',
+ 				reportTitles: 'Parasoft Coverage Report'])
+			}
+	}
+
         stage('Publishing Code Coverage Results') {
             steps {
                 recordParasoftCoverage (
