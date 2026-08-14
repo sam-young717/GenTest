@@ -28,7 +28,7 @@ pipeline {
  				alwaysLinkToLastBuild: true,
  				keepAll: true,
  				reportDir: 'reports',
- 				reportFiles: 'report5932398513366191311.html',
+ 				reportFiles: 'report773663868666720922.html',
  				reportName: 'Parsoft Coverage Report HTML',
  				reportTitles: 'Parasoft Coverage Report'])
 			}
