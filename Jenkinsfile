@@ -37,7 +37,7 @@ pipeline {
         stage('Publishing Code Coverage Results') {
             steps {
                 recordParasoftCoverage (
-                    pattern: 'reports/coverage.xml',
+                    pattern: 'reports/cvg_08-14-26_09-38-47',
                     referenceJob: 'CT',
                     sourceCodeEncoding: 'UTF-8',
                     coverageQualityGates: [
